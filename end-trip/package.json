@@ -1,0 +1,40 @@
+{
+  "id": "com.end.trip.nyatindopatrick",
+  "schemaVersion": 1,
+  "displayName": "End Trip Form",
+  "providerName": "Company-x",
+  "icon": "finish-line.png",
+  "version": "2",
+  "minorVersion": "3",
+  "appModel": "AppModel.json",
+  "description": "Sample Response Package",
+  "dials": {
+    "isLocalised": false,
+    "isPinned": false
+  },
+  "actionScope": "Group",
+  "views": {
+    "ChatCanvasCardView": {
+      "showReceipts": false,
+      "showLikes": false,
+      "showComments": false,
+      "labelResponseSending": "Sending your resposne",
+      "labelResponseFailed": "Failed sending your response",
+      "labelResponded": "Response sent",
+      "isResponseEditable": false
+    },
+    "CreationView": {
+      "sourceLocation": "Response.html",
+      "showNativeToolbar": false
+    },
+    "ResponseResultsView": {
+      "sourceLocation": "ResponseSummary.html",
+      "showNativeToolbar": false
+    }
+  },
+  "externalUrls": [
+    {
+      "url": "https://kaizala-fleet.herokuapp.com/"
+    }
+  ]
+}

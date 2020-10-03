@@ -1,0 +1,23 @@
+{
+  "strMiniAppTitle": "View Trip",
+  "Vehicle Registration": "Vehicle Registration",
+  "Odometer Reading": "Odometer Reading",
+  "strTapToEnter": "Tap to enter",
+  "Destination": "Destination",
+  "Date": "Date",
+  "Time": "Time",
+  "Name": "Name",
+  "Phone No": "Phone Number",
+  "Location": "Location",
+  "strSelectYourResponse": "Select your reponse",
+  "strMiniAppYourDetails": "Your Details",
+  "strNoLocationLabel": "Due to poor network connectivity, your location could not be fetched",
+  "strRefreshLabel": "REFRESH",
+  "strMiniAppLocationNetworkWarningLabel": "Due to poor network connectivity, your location map could not be fetched. Your location co-ordinates will be shared instead",
+  "strMiniAppLoadingLabel": "Please wait while we are trying to fetch your location",
+  "strNoLocationAlertLabel": "Location not found. Please ensure that you have turned on location services and provided Kaizala the location permission. Tap on refresh below to try fetching location again",
+  "strProgressTextLabel": "{0} of {1}",
+  "strConnectGroupName": "Need To change",
+  "strMiniAppHeaderTimeLabel": "Created by you at {0}",
+  "strSendResponseLabel": "SUBMIT"
+}

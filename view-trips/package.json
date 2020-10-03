@@ -1,0 +1,40 @@
+{
+  "id": "com.view.trips.nyatindopatrick",
+  "schemaVersion": 1,
+  "displayName": "View Trip",
+  "providerName": "Company-x",
+  "icon": "finish-line.png",
+  "version": "1",
+  "minorVersion": "1",
+  "appModel": "AppModel.json",
+  "description": "Sample Response Package",
+  "dials": {
+    "isLocalised": false,
+    "isPinned": false
+  },
+  "actionScope": "Group",
+  "views": {
+    "ChatCanvasCardView": {
+      "showReceipts": false,
+      "showLikes": false,
+      "showComments": false,
+      "labelResponseSending": "Sending your resposne",
+      "labelResponseFailed": "Failed sending your response",
+      "labelResponded": "Response sent",
+      "isResponseEditable": false
+    },
+    "CreationView": {
+      "sourceLocation": "Response.html",
+      "showNativeToolbar": false
+    },
+    "ResponseResultsView": {
+      "sourceLocation": "ResponseSummary.html",
+      "showNativeToolbar": false
+    }
+  },
+  "externalUrls": [
+    {
+      "url": "https://kaizala-fleet.herokuapp.com/"
+    }
+  ]
+}
